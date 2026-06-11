@@ -1,0 +1,29 @@
+{
+	"model-count": 3,
+	"models": [
+		{
+			"id": "claude-opus",
+      "name": "Opus",
+      "color": "#3E2F5B",
+      "effort-levels": [
+        "min", "low", "medium", "high", "max"
+      ]
+    },
+    {
+      "id": "claude-sonnet",
+      "name": "Sonnet",
+      "color": "#D97736",
+      "effort-levels": [
+        "min", "low", "medium", "high", "max"
+      ]
+    },
+    {
+      "id": "claude-haiku",
+      "name": "Haiku",
+      "color": "#74C7B8",
+      "effort-levels": [
+        "min", "low", "medium", "high"
+      ]
+    } 
+	]
+}

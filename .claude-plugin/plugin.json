@@ -1,0 +1,8 @@
+{
+	"name": "magnum",
+	"description": "A plugin that helps Claude orchestrate different AI agents for different tasks",
+	"version": "0.1.0",
+	"author": {
+		"name": "Kunru Li"
+	}
+}
