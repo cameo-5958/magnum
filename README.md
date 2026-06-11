@@ -12,6 +12,18 @@ Decomposes a task into sequential **atomic phases**, each split into parallel **
 
 Switches the active model profile (`currently-selected-profile` in `.config/index.json`).
 
+### Editing the active profile
+
+These all act on the `currently-selected-profile` and edit `models.json` / `model-guide.md` directly, so you don't have to:
+
+- `reorder-models` — change the model selection order
+- `add-model` — add a new model, with its own scope, effort mapping, and invocation method
+- `remove-model` — remove a model
+
+### `create-profile`
+
+Creates a new profile by copying an existing one (defaults to the active profile), as a starting point for `add-model` / `remove-model` / `reorder-models` and `swap-profile`.
+
 ## Configuration
 
 - `.config/index.json` — active profile name and `max-subagents` (max parallel subtasks per phase)
